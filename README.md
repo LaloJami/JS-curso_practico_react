@@ -44,3 +44,27 @@ npm i mini-css-extract-plugin css-loader style-loader sass sass-loader -D
 ```
 npm install react-router-dom
 ```
+# ¿Qué es Atomic Design?
+
+## Atomos
+Representación de pequeños elementos o unidades claves dentro de nuestra aplicación, por ejemplo:
+- Botones
+- Elemendo de un texto
+- comportamiento de una imagen
+## Moleculas
+Nos permiten unir más de un componente y crear un bloque especifico, por ejemplo un nav con su lista, o un logo donde esta una imagen y un texto.
+
+## Organismos
+Un header puede tener un componente logo, nav, entre otros, en este caso el header es el organismo
+
+## Template
+Es la combinacion de organismos aqui encontramos una combinacion que hacen a una pagina como el header, footer, sidebar.
+
+## Pages
+Creacion de paginas
+
+Para la estructura de nuestro proyecto aplicamos de la siguiente forma
+
+- **Components**: pieza más pequeño (átomo).
+- **Containers**: Muestran la unión de uno o más componentes.
+- **Pages**: Son las secciones / rutas que vamos a tener.
