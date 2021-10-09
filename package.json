@@ -1,0 +1,24 @@
+{
+  "name": "js-curso_practico_react",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <h1>Curso Practico de React</h1> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaloJami/JS-curso_practico_react.git"
+  },
+  "keywords": [],
+  "author": "Eduardo Jami <eduardolalojami@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaloJami/JS-curso_practico_react/issues"
+  },
+  "homepage": "https://github.com/LaloJami/JS-curso_practico_react#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -14,3 +14,11 @@ Este concepto es ampliamente conocido en la programación, en este curso vamos a
 
 ## Estado
 Esto es fundamental, ya que podemos ver los estados y ver como es el flujo de la información entre componentes a travez de un imputs, botones, interacciones entre otros elementos
+
+# Instalación de React y React DOM
+Iniciar proyecto
+```
+git init
+npm init -y
+npm install react react-dom
+```
