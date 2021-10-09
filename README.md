@@ -40,3 +40,7 @@ npm install -D babel-loader html-loader html-webpack-plugin
 ```
 npm i mini-css-extract-plugin css-loader style-loader sass sass-loader -D
 ```
+# React DOM
+```
+npm install react-router-dom
+```
