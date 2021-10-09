@@ -22,3 +22,21 @@ git init
 npm init -y
 npm install react react-dom
 ```
+# Configuración de webpack y babel
+Babel:
+```
+npm install -D @babel/core @babel/preset-env @babel/preset-react 
+```
+Webpack:
+```
+npm install -D webpack webpack-cli webpack-dev-server 
+```
+HTML plugin:
+```
+npm install -D babel-loader html-loader html-webpack-plugin
+```
+# React con CSS y Sass
+
+```
+npm i mini-css-extract-plugin css-loader style-loader sass sass-loader -D
+```
