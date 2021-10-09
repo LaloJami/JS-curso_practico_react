@@ -2,7 +2,7 @@
   "name": "js-curso_practico_react",
   "version": "1.0.0",
   "description": "<div align=\"center\">   <h1>Curso Practico de React</h1> </div>",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
