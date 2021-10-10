@@ -177,3 +177,44 @@ function ComponentWrapper(WrapperComponent) {
   return Wrapper;
 }
 ```
+# React context
+**Context** es una herramienta para pasar propiedades en un arbol de componentes de arriba hacia abjo sin tener que pasar por componentes intermedios.
+
+Par usar context debemos importar dos cosas:
+**createContext** -> Permite crear el contexto
+**useContext** -> Este hook nos va permitir uusar contextos dentro de los componentes
+```js
+import { createContext, useContext} from 'react'; // Tambien podemos importarlo de esta manera
+// Creando el contexto
+const Context = createContext('valor');
+```
+**createContext** recibe un valor inicial que se va seleccionar en caso de no tener un provider. Puede ser cualquier valor (string, number, objeto, array…)
+
+**¿Que es un provider?**
+Es el encargado de poder pasar el contexto hacia los componentes hijos
+```js
+import { createContext, useContext} from 'react';
+
+//creando el contexto
+const Context = createContext('valor por defecto'); 
+const Provider = ({children} => {
+	return (
+//Recibe un valor obligatorio que es el que se va estar pasando a los componentes hijos****
+	<Context.Provider value={"soy un valor"} > 
+				{children}
+		  </Context.Provider>
+	)
+}
+
+//Finalmente usamos nuestro componente Provider
+
+function App() {
+	return (
+	<Provider>
+			<Contenido>
+		</Provider>
+	);
+}
+
+export default App;
+```
